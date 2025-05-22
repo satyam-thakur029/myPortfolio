@@ -1,12 +1,11 @@
-import React from 'react'
-
-function Experiences() {
+import { Timeline } from "../components/Timeline";
+import { experiences } from "../constants";
+const Experiences = () => {
   return (
-    <section>
-        <h2>Contact Me</h2>
-        <p>Email: you@example.com</p>
-      </section>
-  )
-}
+    <div className="w-full">
+      <Timeline data={experiences} />
+    </div>
+  );
+};
 
-export default Experiences
+export default Experiences;
