@@ -112,17 +112,18 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "Tik-Tac-Toe Game ",
+    title: "SyncInk",
     description:
       "I've implemented a fun and interactive Tic Tac Toe game, bringing the classic to the digital world.",
-    subDescription: [
-      "you're playing against a friend or challenging yourself against the computer.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "https://e-tik-tak-toe.netlify.app/ ",
+   subDescription: [
+  "Built InkSynk, a collaborative drawing app where multiple users can draw on the same canvas in real time.",
+  "Implemented socket-based real-time synchronization to handle multi-user interactions smoothly.",
+  "Optimized canvas rendering for minimal lag and high responsiveness during concurrent drawing sessions.",
+]
+,
+    href: "sync-ink.vercel.app",
     logo: "",
-    image: "/assets/projects/Tik-Tac-Toe.png",
+    image: "/assets/projects/InkSynk.png",
     tags: [
       {
         id: 1,
@@ -141,8 +142,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
@@ -151,15 +152,13 @@ export const myProjects = [
     title: " Weather Website",
     description:
       "Stay informed with real-time weather updates!.",
-    subDescription: [
-      "Developed a responsive theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "weather website provides accurate and up-to-date weather information for any location you choose.",
-    ],
-    href: "https://e-weatherinfo.netlify.app/ ",
+subDescription: [
+  "Built ResumeEdit, an AI-powered resume builder that dynamically updates content in real-time based on user prompts.",
+  "Integrated a prompt-based editing workflow to generate and modify resume sections instantly using natural language input.",
+  "Implemented responsive design and optimized user experience for seamless resume customization across devices."],
+    href: "resume-edit-topaz.vercel.app ",
     logo: "",
-    image: "/assets/projects/Weather.png",
+    image: "/assets/projects/ResumeBuilder.png",
     tags: [
       {
         id: 1,
@@ -183,41 +182,41 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: " Random Password Generator",
-    description:
-      " random password generator to help you create strong and unique passwords for your online accounts",
-    subDescription: [
-      " Safeguard your information with passwords that are both secure and easy to use.",
-      "Integrated Stripe API for secure password processing.",
-    ],
-    href: "https://e-passwordgenerate.netlify.app/",
-    logo: "",
-    image: "/assets/projects/PasswordGenerator.png",
-    tags: [
-      {
-        id: 1,
-        name: "Html5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "Vitejs",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: " Random Password Generator",
+  //   description:
+  //     " random password generator to help you create strong and unique passwords for your online accounts",
+  //   subDescription: [
+  //     " Safeguard your information with passwords that are both secure and easy to use.",
+  //     "Integrated Stripe API for secure password processing.",
+  //   ],
+  //   href: "https://e-passwordgenerate.netlify.app/",
+  //   logo: "",
+  //   image: "/assets/projects/PasswordGenerator.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Html5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Vitejs",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
