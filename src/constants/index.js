@@ -121,7 +121,7 @@ export const myProjects = [
   "Optimized canvas rendering for minimal lag and high responsiveness during concurrent drawing sessions.",
 ]
 ,
-    href: "sync-ink.vercel.app",
+    href: "https://sync-ink.vercel.app/",
     logo: "",
     image: "/assets/projects/InkSynk.png",
     tags: [
@@ -156,7 +156,7 @@ subDescription: [
   "Built ResumeEdit, an AI-powered resume builder that dynamically updates content in real-time based on user prompts.",
   "Integrated a prompt-based editing workflow to generate and modify resume sections instantly using natural language input.",
   "Implemented responsive design and optimized user experience for seamless resume customization across devices."],
-    href: "resume-edit-topaz.vercel.app ",
+    href: "https://resume-edit-topaz.vercel.app/ ",
     logo: "",
     image: "/assets/projects/ResumeBuilder.png",
     tags: [
