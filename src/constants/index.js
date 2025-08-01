@@ -149,7 +149,7 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: " Weather Website",
+    title: " Resume Builder",
     description:
       "Stay informed with real-time weather updates!.",
 subDescription: [
